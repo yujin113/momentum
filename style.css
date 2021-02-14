@@ -2,6 +2,11 @@ body {
   background-color: #ecf0f1;
 }
 
+.js-clock {
+  font-size: 6em;
+  text-align: center;
+}
+
 .btn {
   cursor: pointer;
 }
@@ -21,4 +26,11 @@ body {
 
 .showing {
   display: block;
+  font-size: 3em;
+  text-align: center;
+}
+
+.toDoList {
+  font-size: 3em;
+  text-align: center;
 }
