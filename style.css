@@ -11,12 +11,50 @@ body {
   text-align: center;
 }
 
-.btn {
-  cursor: pointer;
+body {
+  color: #ecf0f1;
+  text-shadow: 0 0 30px #34495e;
 }
 
-body {
-  color: #34495e;
+.js-toDoForm input {
+  width: 300px;
+  height: 45px;
+  border: none;
+  font-size: 2em;
+  background: none;
+  color: #ecf0f1;
+  text-decoration: underline;
+  text-align: center;
+  padding: 5x;
+}
+
+.js-form input {
+  width: 500px;
+  height: 70px;
+  border: none;
+  font-size: 1em;
+  background: none;
+  color: #ecf0f1;
+  text-align: center;
+}
+
+input::placeholder {
+  color: #ecf0f1;
+}
+
+input:focus {
+  outline: none;
+}
+
+button {
+  background: none;
+  border: none;
+  padding-right: 20px;
+}
+
+li {
+  list-style: none;
+  font-size: 2em;
 }
 
 .clicked {
@@ -30,7 +68,7 @@ body {
 
 .showing {
   display: block;
-  font-size: 3em;
+  font-size: 3.5em;
   text-align: center;
 }
 
@@ -56,4 +94,9 @@ body {
   height: 100%;
   z-index: -1;
   animation: fadeIn 0.5s linear;
+}
+
+.js-weather {
+  position: absolute;
+  bottom: 0;
 }
